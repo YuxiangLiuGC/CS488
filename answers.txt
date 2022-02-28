@@ -1,0 +1,44 @@
+Q2:
+
+Latency:100ms
+throughput:3.5 Mbits/sec
+
+Average RRT:200ms
+Measured throughput:3.5 Mbits/sec
+
+use parameter 20 seconds to test.
+
+Q3: 
+
+Two pairs of hosts:
+Latency:80ms
+throughput:20 Mbits/sec
+Average RTT:165ms
+Measured throughput:20 Mbits/sec
+
+Three paris of hosts:
+Latency:80ms 
+throughput:7.5 Mbits/sec
+Average RTT:165ms
+Measured throughput:7.73 Mbits/sec
+
+From two pairs of hosts to three pairs of hosts, throughput droped from 20 to 7.73 Mbits/sec.
+
+Q4:
+
+h1-h4:
+Latency:80ms 
+throughput:17Mbits/sec
+Average RTT:165ms
+Measured throughput:17.5Mbits/sec
+
+use parameter 20 seconds to test.
+
+h5-h6:
+Latency:20ms 
+throughput:25Mbits/sec
+Average RTT:45ms
+Measured throughput:25.6Mbits/sec
+
+use parameter 20 seconds to test.
+

@@ -1,0 +1,19 @@
+root@mininet-vm:~/CS488S22/projects/proj1# iperf -s
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 40] local 10.0.0.5 port 5001 connected with 10.0.0.6 port 47532
+[ ID] Interval       Transfer     Bandwidth
+[ 40]  0.0-23.9 sec  67.2 MBytes  23.6 Mbits/sec
+
+
+root@mininet-vm:~/CS488S22/projects/proj1# iperf -c 10.0.0.5 -t 20
+------------------------------------------------------------
+Client connecting to 10.0.0.5, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 39] local 10.0.0.6 port 47532 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[ 39]  0.0-20.4 sec  67.2 MBytes  27.6 Mbits/sec
+root@mininet-vm:~/CS488S22/projects/proj1# 
